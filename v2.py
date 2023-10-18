@@ -210,3 +210,30 @@ for iter in range(max_iters):
 # generate from model
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+
+# Output
+# -------------------------
+# Form:
+# Well, then, hear me.
+# -------------------------
+# POLIXENES:
+# Your guests approach.
+# -------------------------
+# CLAMILLO:
+# Your first is on the sister's bursiness
+# Are forcible that tilt.
+# -------------------------
+# ISABELLA:
+# A race benew, alas,
+# When I am king, methinks, I will follow:
+# So, cracking so and I pack the lips;
+# Edwards, in fair true love's charges wondrous,
+# I do before I have leaved.
+# So do we boldly delays shall poort on me:
+# Nurse! Ploase, let's see how our hastess Tewkbury,
+# Suspection and said 'Ry bed, beauty I
+# Put into thee.
+# -------------------------
+# CLAUDIO:
+# And save scorns, were I
+# -------------------------
